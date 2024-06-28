@@ -1,1 +1,21 @@
+// Toutes les description commençant avec un double slash permettent d'expliquer le code. Vous pouvez les supprimer une fois le code fonctionnant comme vous le souahitez.
+// Au préalable il faut renommer l'ID du champs texte dans Wix Studio : numberText // Ou un autre nom en fonction du besoin
 
+let startNum = 0; // défini la valeur de départ à modifier en fonction de vos besoins.
+let endNum = 10; // défini la valeur finale du nombre à modifier en fonction de vos besoins.
+const duration = 10; // 1000 millisecondes représente la vitesse de modification à modifier en fonction de vos besoins.
+
+// Cette fonction permet de compter et d'animer le texte en définissant les différents paramètres.
+$w.onReady(function () {
+    setInterval(() => {
+        countUp();
+    }, duration);
+});
+
+// Cette fonction est 
+function countUp() {
+    if (startNum <= endNum) {
+        $w('#numberText').text = startNum.toLocaleString();
+        startNum += 100;
+    }
+}
