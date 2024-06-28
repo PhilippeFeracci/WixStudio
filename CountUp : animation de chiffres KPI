@@ -1,5 +1,6 @@
 // Toutes les description commençant avec un double slash permettent d'expliquer le code. Vous pouvez les supprimer une fois le code fonctionnant comme vous le souahitez.
-// Au préalable il faut renommer l'ID du champs texte dans Wix Studio : numberText // Ou un autre nom en fonction du besoin
+// Au préalable il faut renommer l'ID du champs texte dans Wix Studio : numberText // Ou un autre nom en fonction du besoin.
+// Lien de la vidéo de présentation : https://www.youtube.com/watch?v=8nmuD6rY-MY 
 
 let startNum = 0; // défini la valeur de départ à modifier en fonction de vos besoins.
 let endNum = 10; // défini la valeur finale du nombre à modifier en fonction de vos besoins.
